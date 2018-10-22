@@ -1,0 +1,47 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:defaultValue="General"
+        android:title="General">
+
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/test_list"
+            android:entryValues="@array/test_list"
+            android:key="list_preference_1"
+            android:title="List preference" />
+    </PreferenceCategory>
+
+    <!-- NOTE: EditTextPreference accepts EditText attributes. -->
+    <!-- NOTE: EditTextPreference's summary should be set to its value by the activity code. -->
+
+    <!-- NOTE: Hide buttons to simplify the UI. Users can touch outside the dialog to
+         dismiss it. -->
+    <!-- NOTE: ListPreference's summary should be set to its value by the activity code. -->
+    <PreferenceCategory
+        android:defaultValue="Notifications"
+        android:title="Notifications">
+
+        <SwitchPreference
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:defaultValue="true"
+            android:key="download_switch_setting"
+            android:title="Download" />
+        <RingtonePreference
+            android:defaultValue=""
+            android:key="ringtone_preference_1"
+            android:title="Download Sound" />
+        <SwitchPreference
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:defaultValue="true"
+            android:key="upload_switch_setting"
+            android:title="Upload" />
+        <RingtonePreference
+            android:defaultValue=""
+            android:key="ringtone_preference_1"
+            android:title="Upload Sound" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

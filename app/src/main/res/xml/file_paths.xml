@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!--<cache-path name="cache" path="cache"/>-->
+    <!--<files-path name="scans" paths="scans"/>-->
+    <!--<external-files-path name="external" path="C&amp;V Survey Connect/Projects/TEST-001/"/>-->
+    <root-path
+        name="root_files"
+        path="." />
+    <external-path
+        name="external_files"
+        path="." />
+    <internal-path
+        name="internal_files"
+        path="." />
+    <files-path
+        name="files"
+        path="." />
+</paths>

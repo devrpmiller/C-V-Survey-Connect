@@ -1,0 +1,103 @@
+<resources>
+    //GENERAL
+    <string name="app_name">C&amp;V Survey Connect</string>
+    <string name="default_channel">default</string>
+    <string name="secondary_channel">secondary</string>
+    <string name="username_textfield">Username</string>
+    <string name="password_textfield">Password</string>
+    <string name="project_not_found">Project not found</string>
+    <string name="search_for_project">Search for project</string>
+    <string name="current_path">Current Path</string>
+    <string name="download_dialog_title">File Download</string>
+    <string name="uploading_dialog_title">Uploading</string>
+    <string name="file_rename_dialog_hint">YYYY-MM-DD-Description</string>
+    <string name="rename_dialog_title">Enter a File Name</string>
+    <string name="point_subfolder_dialog_title">Create a Folder Name</string>
+    <string name="cs_dialog_title">Cutsheet</string>
+    <string name="downloading_dialog_title">Downloading</string>
+
+    //MESSAGES
+    <string name="login_message">Login Failed: The username/password was incorrect or the user does not have the required access rights.</string>
+    <string name="cutsheet_message">Would you like to begin a new Cutsheet, resume an exist Cutsheet or, upload a completed Cutsheet?</string>
+    <string name="download_message">Do you want to open or save this file?</string>
+    <string name="empty_folder_message">This folder is empty or does not exist.</string>
+
+    //BUTTON TEXT
+    <string name="login_button">Login</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="save_button">Save</string>
+    <string name="enter_button">Enter</string>
+    <string name="open_button">Open</string>
+    <string name="upload_button">Upload</string>
+    <string name="discard_button">Discard</string>
+    <string name="resume_button">Resume</string>
+    <string name="new_button">New</string>
+    <string name="upload">UPLOAD</string>
+    <string name="download">DOWNLOAD</string>
+    <string name="scanned">SCANNED</string>
+    <string name="field">FIELD</string>
+    <string name="stakeout">STAKEOUT</string>
+    <string name="images">IMAGES</string>
+    <string name="cutsheets">CUTSHEETS</string>
+    <string name="points">POINTS</string>
+
+    //IMAGE REFERENCES
+    <string name="candv_logo">CandV Logo</string>
+    <string name="control_image">controlImage</string>
+    <string name="cutsheets_image">cutsheetsImage</string>
+    <string name="exhibits_image">exhibitsImage</string>
+    <string name="point_files_image">pointFilesImage</string>
+    <string name="images_image">imagesImage</string>
+    <string name="up_image">upImage</string>
+    <string name="down_image">downImage</string>
+    <string name="scanned_image">scannedImage</string>
+
+    //PREFERENCES
+    <string name="SecureReauthDate">SecureReauthDate</string>
+    <string name="SharedJobList">SharedJobList</string>
+    <string name="SecureUsername">SecureUsername</string>
+    <string name="SecurePassword">SecurePassword</string>
+    <string name="ReverseSort">ReverseSort</string>
+
+    //MENU TEXT
+    <string name="exit">Exit</string>
+    <string name="settings">Settings</string>
+    <string name="search">Search</string>
+    <string name="sort">Sort</string>
+    <string name="about">About</string>
+    <string name="title_activity_settings">Settings</string>
+
+    //ABOUT DIALOG
+    <string name="about_title">About C&amp;V Survey Connect</string>
+    <string name="version_number">Version:</string>
+    <string name="website_text">Website:</string>
+    <string name="about_website"><a href="http://www.cvc-inc.net/">http://www.cvc-inc.net/</a></string>
+    <string name="phone_text">Phone:</string>
+    <string name="about_phone">(949) 916-3800</string>
+    <string name="ok_button">OK</string>
+
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact based on your message history</string>
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="test_list">
+        <item>Value 1</item>
+        <item>Value 2</item>
+        <item>Value 3</item>
+    </string-array>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="about_image">about_image</string>
+
+</resources>
